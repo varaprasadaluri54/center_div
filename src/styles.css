@@ -1,0 +1,40 @@
+/* .parent {
+  display: flex;
+  border: 1px solid yellow;
+  width:100%;
+  align-items: center;
+  justify-content: center;
+} */
+body {
+  border: 1px solid black;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.App {
+  /* font-family: sans-serif;
+  text-align: center; */
+  display: flex;
+  border: 1px solid black;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+  width: 100%;
+}
+.parent {
+  width: 300px; /* Set the width of the parent container */
+  height: 300px; /* Set the height of the parent container */
+  border: 2px solid #000; /* Add a border to the parent container */
+  display: flex;
+  justify-content: center; /* Horizontally center the child element */
+  align-items: center; /* Vertically center the child element */
+}
+
+.child {
+  width: 200px; /* Set the width of the child container */
+  height: 100px; /* Set the height of the child container */
+  border: 1px solid #f00; /* Add a border to the child container */
+}
